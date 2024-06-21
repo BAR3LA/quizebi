@@ -1,0 +1,32 @@
+{%extends 'base.html'%}
+
+{%block content%}
+<style>
+    th,
+    td {
+        border: 1px solid black;
+    }
+</style>
+
+<table class="table table-striped">
+    <tr class="table-info">
+        <th scope="col">#</th>
+        <th scope="col">Movie</th>
+        <th scope="col">Release Date</th>
+        <th scope="col">Rating</th>
+        <th scope="col">Length</th>
+    </tr>
+    <tr class="table-warning">
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+    </tr>
+    
+</table>
+
+{%endblock%}
+
+{%block title%}
+<title>All Movies</title>
+{%endblock%}
