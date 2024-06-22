@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{%block content%}
+
+<h1>Welcome To Our New Website</h1>
+{% if not session['username'] %}
+<h2>Please Log in to get full access to our Website</h2>
+{%endif%}
+
+{%endblock%}
+
+{%block title%}
+<title>Home</title>
+{%endblock%}
+
+
+    
